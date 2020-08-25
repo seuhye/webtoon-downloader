@@ -21,25 +21,6 @@ for no in range(1, no_MAX):
     driver.get("https://comic.naver.com/webtoon/detail.nhn?titleId=" + titleID + "&no=" + str(no))
     html = driver.page_source
 
-
-    '''
-    # Test codes for AppURLopener instance
-    class AppURLopener(urllib.request.FancyURLopener):
-        version = "Mozilla/5.0"
-    
-    opener = AppURLopener()
-    response = opener.open("https://comic.naver.com/webtoon/detail.nhn?titleId=21815&no=1")
-    html = response
-    
-    
-    # Test codes for adding headers to Request instance
-    target_page = "https://comic.naver.com/webtoon/detail.nhn?titleId=21815&no=1"
-    req = urllib.request.Request(target_page, headers={'User-Agent': 'Mozilla/5.0'})
-    response = urllib.request.urlopen(req).read()
-    text = response.decode('utf-8')
-    '''
-
-
     # Page parsing
     soup = BeautifulSoup(html, 'html.parser')
     url_page = soup.select("#comic_view_area > div.wt_viewer > img")
