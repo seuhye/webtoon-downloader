@@ -13,17 +13,22 @@ opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb
 driver = webdriver.Chrome("chromedriver", options=opts)
 
 # Data for the target toon
-titleID = '21815'
-no_MAX = 733
+no_MAX = 394
+
+# 1st episode url
+driver.get("https://marumaru.sale/bbs/cmoic/20025/22589")
 
 # Main for-loop
 for no in range(1, no_MAX):
-    driver.get("https://comic.naver.com/webtoon/detail.nhn?titleId=" + titleID + "&no=" + str(no))
     html = driver.page_source
 
     # Page parsing
     soup = BeautifulSoup(html, 'html.parser')
-    url_page = soup.select("#comic_view_area > div.wt_viewer > img")
+    if (no == 1):
+        url_next = soup.select("#thema_wrapper > div.at-body > div > div > div.col-md-9.at-col.at-main > div > div:nth-child(1) > h1:nth-child(2) > div.popular.pull-right.goods > a:nth-child(2)")
+    else:
+        url_next = soup.select("#thema_wrapper > div.at-body > div > div > div.col-md-9.at-col.at-main > div > div:nth-child(1) > h1:nth-child(2) > div.popular.pull-right.goods > a:nth-child(3)")
+    url_page = soup.select("#thema_wrapper > div.at-body > div > div > div.col-md-9.at-col.at-main > div > div.view-img > img")
 
     # Saving image files
     os.makedirs(os.path.join('./IMAG/{:0>4}'.format(no)))
@@ -40,3 +45,9 @@ for no in range(1, no_MAX):
                     img = f.read()
                     h.write(img)
     i_num = 1
+
+    print("Episode " + '{:0>3}'.format(no) + " download completed")
+
+    for j in url_next:
+        url_next_episode = j['href']
+    driver.get(url_next_episode)
