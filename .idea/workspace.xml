@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55abea0a-7085-48af-a97e-5af6a4778e90" name="Default Changelist" comment="" />
+    <list default="true" id="55abea0a-7085-48af-a97e-5af6a4778e90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NaverWebtoonDownloader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NaverWebtoonDownloader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaverWebtoonDownloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/NaverWebtoonDownloader.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +59,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\monsh\PycharmProjects\NaverWebtoonDownloader\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\NaverWebtoonDownloader\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -141,29 +146,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="817" y="363" key="FileChooserDialogImpl" timestamp="1598376535328">
+    <state x="1994" y="400" width="694" height="504" key="EnvironmentVariablesDialog" timestamp="1600011344011">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
-    <state x="817" y="363" key="FileChooserDialogImpl/0.0.3072.1698@0.0.3072.1698" timestamp="1598376535328" />
-    <state width="1756" height="203" key="GridCell.Tab.0.bottom" timestamp="1598796298480">
+    <state x="1994" y="400" width="694" height="504" key="EnvironmentVariablesDialog/0.0.3072.1698@0.0.3072.1698" timestamp="1600011344011" />
+    <state x="817" y="363" key="FileChooserDialogImpl" timestamp="1600011704657">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
-    <state width="1756" height="203" key="GridCell.Tab.0.bottom/0.0.3072.1698@0.0.3072.1698" timestamp="1598796298480" />
-    <state width="1756" height="203" key="GridCell.Tab.0.center" timestamp="1598796298479">
+    <state x="817" y="363" key="FileChooserDialogImpl/0.0.3072.1698@0.0.3072.1698" timestamp="1600011704657" />
+    <state width="1756" height="203" key="GridCell.Tab.0.bottom" timestamp="1600012006058">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
-    <state width="1756" height="203" key="GridCell.Tab.0.center/0.0.3072.1698@0.0.3072.1698" timestamp="1598796298479" />
-    <state width="1756" height="203" key="GridCell.Tab.0.left" timestamp="1598796298479">
+    <state width="1756" height="203" key="GridCell.Tab.0.bottom/0.0.3072.1698@0.0.3072.1698" timestamp="1600012006058" />
+    <state width="1756" height="203" key="GridCell.Tab.0.center" timestamp="1600012006058">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
-    <state width="1756" height="203" key="GridCell.Tab.0.left/0.0.3072.1698@0.0.3072.1698" timestamp="1598796298479" />
-    <state width="1756" height="203" key="GridCell.Tab.0.right" timestamp="1598796298479">
+    <state width="1756" height="203" key="GridCell.Tab.0.center/0.0.3072.1698@0.0.3072.1698" timestamp="1600012006058" />
+    <state width="1756" height="203" key="GridCell.Tab.0.left" timestamp="1600012006058">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
-    <state width="1756" height="203" key="GridCell.Tab.0.right/0.0.3072.1698@0.0.3072.1698" timestamp="1598796298479" />
-    <state x="545" y="253" key="SettingsEditor" timestamp="1598346539218">
+    <state width="1756" height="203" key="GridCell.Tab.0.left/0.0.3072.1698@0.0.3072.1698" timestamp="1600012006058" />
+    <state width="1756" height="203" key="GridCell.Tab.0.right" timestamp="1600012006058">
       <screen x="0" y="0" width="3072" height="1698" />
     </state>
-    <state x="545" y="253" key="SettingsEditor/0.0.3072.1698@0.0.3072.1698" timestamp="1598346539218" />
+    <state width="1756" height="203" key="GridCell.Tab.0.right/0.0.3072.1698@0.0.3072.1698" timestamp="1600012006058" />
+    <state x="545" y="253" key="SettingsEditor" timestamp="1600011778771">
+      <screen x="0" y="0" width="3072" height="1698" />
+    </state>
+    <state x="545" y="253" key="SettingsEditor/0.0.3072.1698@0.0.3072.1698" timestamp="1600011778771" />
   </component>
 </project>
