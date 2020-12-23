@@ -9,14 +9,14 @@ from urllib.request import urlopen
 # Declaration : webdriver
 # In fact, we don't need the variable 'opts' just below
 opts = Options()
-opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36")
+opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36")
 driver = webdriver.Chrome("chromedriver", options=opts)
 
 # Data for the target toon
-no_MAX = 394
+no_MAX = 81
 
 # 1st episode url
-driver.get("https://marumaru.sale/bbs/cmoic/20025/22589")
+driver.get("https://marumaru.dance/bbs/cmoic/20334/36331")
 
 # Main for-loop
 for no in range(1, no_MAX):
