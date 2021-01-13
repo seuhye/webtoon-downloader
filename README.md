@@ -1,19 +1,21 @@
 # Webtoon Downloader
-네이버 웹툰과 마루마루에 있는 어떤 작품을,  
-본인이 원하는 구간을 지정하여 다운로드 받을 수 있는 크롤러
+A crawler that allows you to download cartoons  
+from Naver Webtoon and Marumaru by specifying the section you want.
   
-# 작품 선택
-다운 받고 싶은 작품의 아무 회차의 html 소스에서 titleID를 검색하여,  
-NaverWebtoonDownloader.py의 titleID 변수에 할당
+# Select a cartoon
+Search [titleID] from the HTML source of  
+the specific episode of the cartoon you want to download.  
+Then, assign to the variable [titleID] in NaverWebtoonDownloader.py
   
-# 범위 선택
-대부분의 작품이 1부 000화, 2부 000화 등 챕터 별로 구분이 되어 있지만,  
-네이버 웹툰이 제공해주는 리모컨에는 챕터를 상관하지 않고 몇 화인지 알려줌.  
-리모컨이 알려주는 정보를 토대로 NaverWebtoonDownloader.py의 no_MAX 값과 for문의 range를 조절
+# Specify a section
+Most of the cartoons are divided into chapters, such as Chapter 1 - 000, and Chapter 2 - 000.  
+The remote control provided by Naver Webtoon does not care about the chapter and tells the number of episodes.  
+Adjust the variable [no_MAX] of NaverWebtoonDownloader.py and the range of the for-statement  
+based on the information from the remote control.
   
 ## Notes
-2020-08-30 : 마루마루用 branch 생성/개발 완료
+2020-08-30 : Branch creation/development completed for Marumaru
   
-# 기타
-코드 작성 초기에 Selenium을 사용하였기 때문에 그냥 남겨두었지만,  
-실제로는 비동기식 데이터를 받아올 일이 없기 때문에 그다지 의미가 있지는 않음.
+# etc.
+I left it because I used Selenium at the beginning of writing the code.  
+In practice, it doesn't make much sense because there is no asynchronous data being received.
